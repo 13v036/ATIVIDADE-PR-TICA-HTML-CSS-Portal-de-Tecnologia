@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description"
+        content="Portal de Tecnologia com projetos de Robótica, Arduino, Matemática e Tecnologia na Educação">
+
     <title>Portal de Tecnologia</title>
 
     <link rel="stylesheet" href="style.css">
@@ -12,144 +15,281 @@
 
 <body>
 
+    <!-- CONTAINER PRINCIPAL -->
     <div class="container">
 
+        <!-- CABEÇALHO -->
         <header id="topo">
-            <h1>Portal de Tecnologia</h1>
-            <p>Robótica, Matemática e Inovação</p>
+
+            <div class="cabecalho-conteudo">
+
+                <span class="categoria">TECNOLOGIA E EDUCAÇÃO</span>
+
+                <h1>Portal de Tecnologia</h1>
+
+                <p>
+                    Robótica, Matemática e Inovação
+                </p>
+
+            </div>
+
         </header>
 
-        <nav>
+
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav aria-label="Menu principal">
+
             <a href="#inicio">Início</a>
+
             <a href="#projetos">Projetos</a>
+
             <a href="#tecnologia">Tecnologia</a>
+
             <a href="#contato">Contato</a>
+
         </nav>
 
+
+        <!-- CONTEÚDO PRINCIPAL -->
         <main>
 
+            <!-- INTRODUÇÃO -->
             <section class="introducao" id="inicio">
+
+                <span class="titulo-pequeno">
+                    APRENDIZADO E INOVAÇÃO
+                </span>
 
                 <h2>Projetos de Tecnologia</h2>
 
                 <p>
                     A tecnologia está cada vez mais presente na educação.
-                    Através da
+                    Por meio da
                     <span class="destaque">robótica</span>,
                     da
                     <span class="destaque">programação</span>
                     e da
                     <span class="destaque">matemática</span>,
-                    é possível desenvolver projetos criativos e educativos.
+                    os estudantes podem desenvolver projetos criativos,
+                    melhorar o raciocínio lógico e aprender a solucionar
+                    problemas.
                 </p>
 
             </section>
 
 
+            <!-- PROJETOS -->
             <section class="projetos" id="projetos">
 
-                <!-- ROBÓTICA -->
+                <div class="titulo-secao">
 
-                <div class="card">
+                    <span>CONHEÇA OS PROJETOS</span>
 
-                    <div class="imagem-container">
-
-                        <img
-                            src="https://images.openai.com/static-rsc-4/lDwj84boFz4WJ9P0p5909O4b9wBgxlqI28hm96bU3tRUr68Vm_2h3SKeXpfZhKQkZkgSXKIcnjbtA7NCPSFc2tQSiH5jVEbi3tI9pBRtA3NOhVzjrcyJnXZRgsOEo2QFyYJbSjqm-f7Nea2E5Tai1dDS1PUY4wYSmK4nbL4cjMADdq4MtgN2SvvnZqox_7Pj?purpose=fullsize"
-                            alt="Robô">
-
-                        <span class="selo">PROJETO</span>
-
-                    </div>
-
-                    <h3>Robótica</h3>
+                    <h2>Áreas de Tecnologia</h2>
 
                     <p>
-                        Desenvolvimento de robôs utilizando sensores,
-                        motores e programação.
+                        Confira alguns exemplos de áreas que utilizam
+                        tecnologia e programação.
                     </p>
 
                 </div>
 
 
-                <!-- ARDUINO -->
-
-                <div class="card">
-
-                    <div class="imagem-container">
-
-                        <img
-                            src="https://images.openai.com/static-rsc-4/5UbmT8uYZDA5to1Vn_O91mma2lbSFj9qB3f1WN0aq-Dm64ZX_-TWKfbaKc0lO_QycC5oIa0NqTHkJg5CX3bXGbV0MZCtpBCA_NM4uH6M8Vd_1E7LmyeVm9GViz8COg9TyXYyf5emTkKFexQdqeYM9EJPlp14nsnEnHjURBtUX24?purpose=inline"
-                            alt="Arduino">
-
-                        <span class="selo">ARDUINO</span>
-
-                    </div>
-
-                    <h3>Arduino</h3>
-
-                    <p>
-                        Projetos utilizando Arduino, sensores e componentes
-                        eletrônicos.
-                    </p>
-
-                </div>
+                <div class="cards">
 
 
-                <!-- MATEMÁTICA -->
+                    <!-- CARD ROBÓTICA -->
+                    <article class="card">
 
-                <div class="card">
+                        <div class="imagem-container">
 
-                    <div class="imagem-container">
+                            <img
+                                src="https://images.openai.com/static-rsc-4/lDwj84boFz4WJ9P0p5909O4b9wBgxlqI28hm96bU3tRUr68Vm_2h3SKeXpfZhKQkZkgSXKIcnjbtA7NCPSFc2tQSiH5jVEbi3tI9pBRtA3NOhVzjrcyJnXZRgsOEo2QFyYJbSjqm-f7Nea2E5Tai1dDS1PUY4wYSmK4nbL4cjMADdq4MtgN2SvvnZqox_7Pj?purpose=fullsize"
+                                alt="Robô utilizado em projetos de robótica"
+                                loading="lazy">
 
-                        <img src="img/matematica.jpg" alt="Matemática">
+                            <span class="selo">
+                                PROJETO
+                            </span>
 
-                        <span class="selo">ESTUDO</span>
+                        </div>
 
-                    </div>
+                        <div class="card-conteudo">
 
-                    <h3>Matemática</h3>
+                            <h3>Robótica</h3>
 
-                    <p>
-                        Aplicação da matemática no desenvolvimento de
-                        projetos tecnológicos.
-                    </p>
+                            <p>
+                                Desenvolvimento de robôs utilizando
+                                sensores, motores e programação para
+                                realizar diferentes tarefas.
+                            </p>
+
+                            <span class="card-info">
+                                Sensores • Motores • Programação
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD ARDUINO -->
+                    <article class="card">
+
+                        <div class="imagem-container">
+
+                            <img
+                                src="https://images.openai.com/static-rsc-4/5UbmT8uYZDA5to1Vn_O91mma2lbSFj9qB3f1WN0aq-Dm64ZX_-TWKfbaKc0lO_QycC5oIa0NqTHkJg5CX3bXGbV0MZCtpBCA_NM4uH6M8Vd_1E7LmyeVm9GViz8COg9TyXYyf5emTkKFexQdqeYM9EJPlp14nsnEnHjURBtUX24?purpose=inline"
+                                alt="Placa Arduino utilizada em projetos eletrônicos"
+                                loading="lazy">
+
+                            <span class="selo">
+                                ARDUINO
+                            </span>
+
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <h3>Arduino</h3>
+
+                            <p>
+                                Criação de projetos utilizando Arduino,
+                                sensores, componentes eletrônicos e
+                                programação.
+                            </p>
+
+                            <span class="card-info">
+                                Eletrônica • Sensores • Código
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD MATEMÁTICA -->
+                    <article class="card">
+
+                        <div class="imagem-container">
+
+                            <img
+                                src="img/matematica.jpg"
+                                alt="Matemática aplicada à tecnologia"
+                                loading="lazy">
+
+                            <span class="selo">
+                                ESTUDO
+                            </span>
+
+                        </div>
+
+                        <div class="card-conteudo">
+
+                            <h3>Matemática</h3>
+
+                            <p>
+                                Aplicação da matemática no desenvolvimento
+                                de projetos tecnológicos, programação e
+                                resolução de problemas.
+                            </p>
+
+                            <span class="card-info">
+                                Cálculos • Lógica • Tecnologia
+                            </span>
+
+                        </div>
+
+                    </article>
 
                 </div>
 
             </section>
 
 
+            <!-- SEPARAÇÃO DO FLOAT -->
             <div class="limpar"></div>
 
 
+            <!-- SEÇÃO TECNOLOGIA -->
             <section class="tecnologia" id="tecnologia">
 
-                <h2>Tecnologia na Educação</h2>
+                <div class="tecnologia-conteudo">
 
-                <p>
-                    O uso de ferramentas tecnológicas pode ajudar os alunos
-                    a desenvolver o raciocínio lógico, a criatividade e a
-                    capacidade de solucionar problemas.
-                </p>
+                    <span class="titulo-pequeno">
+                        TECNOLOGIA NA EDUCAÇÃO
+                    </span>
+
+                    <h2>Tecnologia na Educação</h2>
+
+                    <p>
+                        O uso de ferramentas tecnológicas pode ajudar os
+                        alunos a desenvolver o raciocínio lógico, a
+                        criatividade e a capacidade de solucionar problemas.
+                    </p>
+
+                    <p>
+                        Projetos envolvendo programação, robótica e
+                        eletrônica também permitem que os estudantes
+                        transformem conhecimentos teóricos em aplicações
+                        práticas.
+                    </p>
+
+                </div>
+
+                <div class="tecnologia-destaque">
+
+                    <strong>3</strong>
+
+                    <span>Áreas apresentadas</span>
+
+                </div>
 
             </section>
 
         </main>
 
 
+        <!-- RODAPÉ -->
         <footer id="contato">
 
-            <p>Projeto de Desenvolvimento de Sistemas</p>
+            <div class="footer-conteudo">
 
-            <p>Portal de Tecnologia - 2026</p>
+                <div>
+
+                    <h3>Portal de Tecnologia</h3>
+
+                    <p>
+                        Projeto de Desenvolvimento de Sistemas
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <p>
+                        Robótica • Arduino • Matemática
+                    </p>
+
+                    <p>
+                        Portal de Tecnologia - 2026
+                    </p>
+
+                </div>
+
+            </div>
 
         </footer>
 
     </div>
 
 
-    <a href="#topo" class="voltar-topo">↑ Topo</a>
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <a href="#topo"
+        class="voltar-topo"
+        aria-label="Voltar para o topo da página">
+        ↑
+    </a>
 
 </body>
 
